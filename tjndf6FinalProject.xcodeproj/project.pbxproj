@@ -9,23 +9,47 @@
 /* Begin PBXBuildFile section */
 		B03EF4C8258EBF1C00B1882C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EF4C7258EBF1C00B1882C /* AppDelegate.swift */; };
 		B03EF4CA258EBF1C00B1882C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EF4C9258EBF1C00B1882C /* SceneDelegate.swift */; };
-		B03EF4CC258EBF1C00B1882C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EF4CB258EBF1C00B1882C /* ContentView.swift */; };
+		B03EF4CC258EBF1C00B1882C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EF4CB258EBF1C00B1882C /* MainView.swift */; };
 		B03EF4CF258EBF1C00B1882C /* tjndf6FinalProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B03EF4CD258EBF1C00B1882C /* tjndf6FinalProject.xcdatamodeld */; };
 		B03EF4D1258EBF1F00B1882C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B03EF4D0258EBF1F00B1882C /* Assets.xcassets */; };
 		B03EF4D4258EBF1F00B1882C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B03EF4D3258EBF1F00B1882C /* Preview Assets.xcassets */; };
 		B03EF4D7258EBF1F00B1882C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B03EF4D5258EBF1F00B1882C /* LaunchScreen.storyboard */; };
+		B03EF4E3258EBF8B00B1882C /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EF4E2258EBF8B00B1882C /* Favorite.swift */; };
+		B03EF4E6258EBF9E00B1882C /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EF4E5258EBF9E00B1882C /* FavoritesView.swift */; };
+		B03EF4E9258EBFAD00B1882C /* RandomJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EF4E8258EBFAD00B1882C /* RandomJokeView.swift */; };
+		B03EF4EC258EBFBF00B1882C /* FavoriteTwoPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EF4EB258EBFBF00B1882C /* FavoriteTwoPart.swift */; };
+		B03EF4EF258EBFD300B1882C /* SendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EF4EE258EBFD300B1882C /* SendViewModel.swift */; };
+		B03EF4F2258EBFEC00B1882C /* SinglePartJoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EF4F1258EBFEC00B1882C /* SinglePartJoke.swift */; };
+		B03EF4F7258EC05600B1882C /* Joke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EF4F6258EC05600B1882C /* Joke.swift */; };
+		B03EF4FA258EC1D500B1882C /* JokeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EF4F9258EC1D500B1882C /* JokeService.swift */; };
+		B03EF4FD258EC21900B1882C /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EF4FC258EC21900B1882C /* SearchView.swift */; };
+		B03EF500258EC25900B1882C /* JokeCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EF4FF258EC25900B1882C /* JokeCards.swift */; };
+		B03EF503258EC27C00B1882C /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EF502258EC27C00B1882C /* SearchResults.swift */; };
+		B03EF506258EC2AF00B1882C /* SendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03EF505258EC2AF00B1882C /* SendView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B03EF4C4258EBF1C00B1882C /* tjndf6FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tjndf6FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03EF4C7258EBF1C00B1882C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B03EF4C9258EBF1C00B1882C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B03EF4CB258EBF1C00B1882C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B03EF4CB258EBF1C00B1882C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B03EF4CE258EBF1C00B1882C /* tjndf6FinalProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tjndf6FinalProject.xcdatamodel; sourceTree = "<group>"; };
 		B03EF4D0258EBF1F00B1882C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B03EF4D3258EBF1F00B1882C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B03EF4D6258EBF1F00B1882C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B03EF4D8258EBF1F00B1882C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B03EF4E2258EBF8B00B1882C /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		B03EF4E5258EBF9E00B1882C /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		B03EF4E8258EBFAD00B1882C /* RandomJokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomJokeView.swift; sourceTree = "<group>"; };
+		B03EF4EB258EBFBF00B1882C /* FavoriteTwoPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTwoPart.swift; sourceTree = "<group>"; };
+		B03EF4EE258EBFD300B1882C /* SendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewModel.swift; sourceTree = "<group>"; };
+		B03EF4F1258EBFEC00B1882C /* SinglePartJoke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePartJoke.swift; sourceTree = "<group>"; };
+		B03EF4F6258EC05600B1882C /* Joke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Joke.swift; sourceTree = "<group>"; };
+		B03EF4F9258EC1D500B1882C /* JokeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeService.swift; sourceTree = "<group>"; };
+		B03EF4FC258EC21900B1882C /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		B03EF4FF258EC25900B1882C /* JokeCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeCards.swift; sourceTree = "<group>"; };
+		B03EF502258EC27C00B1882C /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
+		B03EF505258EC2AF00B1882C /* SendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +82,22 @@
 		B03EF4C6258EBF1C00B1882C /* tjndf6FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				B03EF4F1258EBFEC00B1882C /* SinglePartJoke.swift */,
+				B03EF4EE258EBFD300B1882C /* SendViewModel.swift */,
+				B03EF505258EC2AF00B1882C /* SendView.swift */,
 				B03EF4C7258EBF1C00B1882C /* AppDelegate.swift */,
 				B03EF4C9258EBF1C00B1882C /* SceneDelegate.swift */,
-				B03EF4CB258EBF1C00B1882C /* ContentView.swift */,
+				B03EF4CB258EBF1C00B1882C /* MainView.swift */,
 				B03EF4D0258EBF1F00B1882C /* Assets.xcassets */,
+				B03EF4F6258EC05600B1882C /* Joke.swift */,
+				B03EF4E2258EBF8B00B1882C /* Favorite.swift */,
+				B03EF4E5258EBF9E00B1882C /* FavoritesView.swift */,
+				B03EF4E8258EBFAD00B1882C /* RandomJokeView.swift */,
+				B03EF4FF258EC25900B1882C /* JokeCards.swift */,
+				B03EF4F9258EC1D500B1882C /* JokeService.swift */,
+				B03EF4FC258EC21900B1882C /* SearchView.swift */,
+				B03EF502258EC27C00B1882C /* SearchResults.swift */,
+				B03EF4EB258EBFBF00B1882C /* FavoriteTwoPart.swift */,
 				B03EF4D5258EBF1F00B1882C /* LaunchScreen.storyboard */,
 				B03EF4D8258EBF1F00B1882C /* Info.plist */,
 				B03EF4CD258EBF1C00B1882C /* tjndf6FinalProject.xcdatamodeld */,
@@ -148,10 +184,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B03EF4F7258EC05600B1882C /* Joke.swift in Sources */,
 				B03EF4CF258EBF1C00B1882C /* tjndf6FinalProject.xcdatamodeld in Sources */,
 				B03EF4C8258EBF1C00B1882C /* AppDelegate.swift in Sources */,
 				B03EF4CA258EBF1C00B1882C /* SceneDelegate.swift in Sources */,
-				B03EF4CC258EBF1C00B1882C /* ContentView.swift in Sources */,
+				B03EF4E3258EBF8B00B1882C /* Favorite.swift in Sources */,
+				B03EF4EF258EBFD300B1882C /* SendViewModel.swift in Sources */,
+				B03EF500258EC25900B1882C /* JokeCards.swift in Sources */,
+				B03EF503258EC27C00B1882C /* SearchResults.swift in Sources */,
+				B03EF4FA258EC1D500B1882C /* JokeService.swift in Sources */,
+				B03EF4E9258EBFAD00B1882C /* RandomJokeView.swift in Sources */,
+				B03EF4FD258EC21900B1882C /* SearchView.swift in Sources */,
+				B03EF4E6258EBF9E00B1882C /* FavoritesView.swift in Sources */,
+				B03EF4F2258EBFEC00B1882C /* SinglePartJoke.swift in Sources */,
+				B03EF4EC258EBFBF00B1882C /* FavoriteTwoPart.swift in Sources */,
+				B03EF506258EC2AF00B1882C /* SendView.swift in Sources */,
+				B03EF4CC258EBF1C00B1882C /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
